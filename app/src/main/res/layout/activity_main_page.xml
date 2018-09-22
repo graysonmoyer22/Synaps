@@ -10,7 +10,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:showDividers="beginning|middle|end"
     tools:context=".MainActivity">
 
 
@@ -18,7 +17,9 @@
         android:id="@+id/SynapLogo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
         android:contentDescription="@string/logo"
+        android:cropToPadding="true"
         android:scaleType="center"
         android:scaleX="4"
         android:scaleY="3"
@@ -27,25 +28,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
         android:background="@android:color/holo_orange_dark"
-        android:orientation="horizontal">
+        android:duplicateParentState="true"
+        android:orientation="horizontal"
+        android:showDividers="beginning|middle|end">
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="40dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:scaleType="center"
+            android:scaleType="fitCenter"
             android:scaleX="2"
             android:scaleY="2"
-            android:src="@android:drawable/picture_frame" />
+            android:src="@drawable/photocercle" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="300dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="@android:color/transparent"
+            android:text="Will Foy" />
     </LinearLayout>
 
     <LinearLayout
@@ -60,16 +65,17 @@
             android:layout_width="40dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:scaleType="center"
+            android:scaleType="fitCenter"
             android:scaleX="2"
             android:scaleY="2"
-            android:src="@android:drawable/picture_frame" />
+            android:src="@drawable/photocercle" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="300dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="@android:color/transparent"
+            android:text="Vignesh Rajmohan" />
     </LinearLayout>
 </LinearLayout>
