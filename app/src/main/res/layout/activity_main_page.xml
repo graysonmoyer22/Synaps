@@ -14,9 +14,60 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/SynapLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/logo"
+        android:scaleType="center"
+        android:scaleX="4"
+        android:scaleY="3"
+        android:src="@mipmap/ic_launcher_foreground" />
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:contentDescription="@string/logo"
-        android:src="@android:color/holo_orange_dark" />
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:src="@android:drawable/picture_frame" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:src="@android:drawable/picture_frame" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Button" />
+    </LinearLayout>
 </LinearLayout>
