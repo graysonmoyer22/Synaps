@@ -14,16 +14,24 @@
 
 
     <ImageView
-        android:id="@+id/SynapLogo"
+        android:id="@+id/imageView4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:background="@android:color/transparent"
-        android:contentDescription="@string/logo"
-        android:cropToPadding="true"
-        android:scaleType="center"
-        android:scaleX="4"
-        android:scaleY="3"
-        android:src="@mipmap/ic_launcher_foreground" />
+        android:scaleType="fitCenter"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:src="@drawable/WhiteSynaps" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#0bcce6"
+        android:text=" Recent Synapses:"
+        android:textIsSelectable="false"
+        android:textSize="18sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,7 +58,15 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:text="Will Foy" />
+            android:capitalize="none"
+            android:elegantTextHeight="true"
+            android:text="Will Foy
+                    5:00pm on 8/21/18
+                             1030 Morewood Avenue"
+            android:textAlignment="center"
+            android:textAllCaps="?android:attr/windowSwipeToDismiss"
+            android:translationX="-50dp" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -76,6 +92,11 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:text="Vignesh Rajmohan" />
+            android:text="                    Vignesh Rajmohan
+                      9:42pm on 8/24/18
+                        5000 Forbes Avenue"
+            android:textAlignment="center"
+            android:textAllCaps="?android:attr/windowSwipeToDismiss"
+            android:translationX="-50dp" />
     </LinearLayout>
 </LinearLayout>
