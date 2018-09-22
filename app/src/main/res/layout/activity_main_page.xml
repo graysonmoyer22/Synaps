@@ -13,6 +13,13 @@
     tools:context=".MainActivity">
 
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_sort_by_size" />
+
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
@@ -32,6 +39,38 @@
         android:text=" Recent Synapses:"
         android:textIsSelectable="false"
         android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="horizontal"
+        android:showDividers="beginning|middle|end">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:src="@drawable/photocercle" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="   Mae Hoad
+                    5:09pm on 9/22/18
+                        Gates-Hillman Center"
+            android:textAlignment="center"
+            android:textAllCaps="?android:attr/windowSwipeToDismiss"
+            android:translationX="-50dp" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -93,10 +132,11 @@
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:text="                    Vignesh Rajmohan
-                      9:42pm on 8/24/18
-                        5000 Forbes Avenue"
+                     9:42pm on 8/24/18
+                       5000 Forbes Avenue"
             android:textAlignment="center"
             android:textAllCaps="?android:attr/windowSwipeToDismiss"
             android:translationX="-50dp" />
     </LinearLayout>
+
 </LinearLayout>
