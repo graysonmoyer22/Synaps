@@ -31,6 +31,7 @@
             android:name=".ProfilePage"
             android:label="@string/title_activity_profile_page"
             android:theme="@style/AppTheme.NoActionBar" />
+
     </application>
 
 </manifest>
