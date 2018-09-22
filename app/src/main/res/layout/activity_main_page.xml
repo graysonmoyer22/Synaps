@@ -57,12 +57,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:text="   Mae Hoad
-                    5:09pm on 9/22/18
-                        Gates-Hillman Center"
-            android:textAlignment="center"
+            android:text="Mae Hoad&#10;5:09pm on 9/22/18&#10;Gates-Hillman Center"
+            android:textAlignment="viewStart"
             android:textAllCaps="?android:attr/windowSwipeToDismiss"
-            android:translationX="-50dp" />
+            android:translationX="50dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -92,12 +90,10 @@
             android:background="@android:color/transparent"
             android:capitalize="none"
             android:elegantTextHeight="true"
-            android:text="Will Foy
-                    5:00pm on 8/21/18
-                             1030 Morewood Avenue"
-            android:textAlignment="center"
+            android:text="Will Foy&#10;5:00pm on 8/21/18&#10;1030 Morewood Avenue"
+            android:textAlignment="viewStart"
             android:textAllCaps="?android:attr/windowSwipeToDismiss"
-            android:translationX="-50dp" />
+            android:translationX="50dp" />
 
     </LinearLayout>
 
@@ -124,12 +120,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:text="                    Vignesh Rajmohan
-                     9:42pm on 8/24/18
-                       5000 Forbes Avenue"
-            android:textAlignment="center"
+            android:text="Vignesh Rajmohan&#10;9:42pm on 8/24/18&#10;5000 Forbes Avenue"
+            android:textAlignment="viewStart"
             android:textAllCaps="?android:attr/windowSwipeToDismiss"
-            android:translationX="-50dp" />
+            android:translationX="50dp" />
     </LinearLayout>
 
 </LinearLayout>
