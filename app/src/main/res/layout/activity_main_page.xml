@@ -13,13 +13,6 @@
     tools:context=".MainActivity">
 
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:src="@android:drawable/ic_menu_sort_by_size" />
-
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
@@ -49,7 +42,7 @@
         android:showDividers="beginning|middle|end">
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imageView6"
             android:layout_width="40dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -59,7 +52,7 @@
             android:src="@drawable/photocercle" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button6"
             android:layout_width="300dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
